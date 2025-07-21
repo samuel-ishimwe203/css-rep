@@ -22,22 +22,9 @@
 .container{
     display: grid;
     height: 100vh;
-    grid-gap: 10px ;
-    grid-template-areas: 
-    
-    "A A A A     A A A A    A A A A "
-    "B B B B   B B B B    B B C  C";
-
+    grid-template: repeat(2, 200px)/ repeat(2,200px);
+    gap: 20px;
+    justify-items: stretch;
+    justify-content:center ;
 }
 
-.box-1{
-    grid-area: A;
-
-}
-.box-1{
-    
-}
-
-.box-1{
-    
-}
